@@ -1,0 +1,12 @@
+{
+  "name": "gmaps-dependency-example",
+  "version": "1.0.0",
+  "description": "Example repo for using gmaps and markerclusterer with requirejs",
+  "dependencies": {},
+  "devDependencies": {
+    "requirejs": "~2.1.11"
+  },
+  "repository": "",
+  "author": "Matt Surabian",
+  "license": "BSD"
+}
