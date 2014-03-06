@@ -4,7 +4,7 @@ define(['jquery'],function($) {
 
   if(!google_maps_loaded_def) {
 
-    var google_maps_loaded_def = $.Deferred();
+    google_maps_loaded_def = $.Deferred();
 
     window.google_maps_loaded = function() {
       google_maps_loaded_def.resolve(google.maps);
@@ -20,4 +20,3 @@ define(['jquery'],function($) {
   return google_maps_loaded_def.promise();
 
 });
-  
